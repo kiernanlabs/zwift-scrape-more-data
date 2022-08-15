@@ -93,8 +93,9 @@ def scrape(urlpage, headless=False):
                     cols = row.find_elements(By.TAG_NAME, "td")
                     category = cols[0].text
                     name = toName(cols[2].text)
+                    team = toTeam(cols[2].text)
                     time = finishTime(cols[3].text)
-                    finishData += [{"Name": name, "Category": category, "Time": time}]
+                    finishData += [{"Name": name, "Team": team, "Category": category, "Time": time}]
             print("Found {} riders.".format(len(finishData)))
             toPrimes = driver.find_element(By.XPATH, '//*[@id="zp_submenu"]/ul/li[4]/a')
             toPrimes.click()
@@ -170,6 +171,12 @@ def scrape(urlpage, headless=False):
     print("Done.")
     return scraped_data
 
+def toTeam(string):
+    #returns the team name if it exists
+    team = ""
+    if len(string.split("\n")) > 1:
+        team = string.split("\n")[1]
+    return team
 
 def toName(string):
     # print(string)
@@ -177,7 +184,6 @@ def toName(string):
     # name = re.sub(r'[^A-Za-z0-9 ]+', '', name)
     # name = name.split(' ')[0]+' '+name.split(' ')[1]
     return name
-
 
 def secsToMS(string):
     flt = float(string)
@@ -258,9 +264,10 @@ def getPrimePositions(sortP):
 
 def formatFinishes(data):
     categories = list(set([x["Category"] for x in data]))
-    toFile = {"Name": [], "Category": [], "Time (ms)": []}
+    toFile = {"Name": [], "Team": [], "Category": [], "Time (ms)": []}
     for rider in data:
         toFile["Name"] += [rider["Name"]]
+        toFile["Team"] += [rider["Team"]]
         toFile["Category"] += [rider["Category"]]
         toFile["Time (ms)"] += [rider["Time"]]
     fPand = pd.DataFrame.from_dict(toFile)
