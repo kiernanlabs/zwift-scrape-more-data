@@ -47,6 +47,7 @@ def scrape(urlpage, headless=False):
                 ).text
             )
             raceName = re.sub(r"[^A-Za-z0-9 ]+", "", raceName)
+            raceName = toEventID(url) + " " + raceName
             print("Downloading data for {}".format(raceName))
             _pages_loaded = WebDriverWait(driver, 10).until(
                 lambda driver: len(
@@ -92,10 +93,11 @@ def scrape(urlpage, headless=False):
                 for row in rows:
                     cols = row.find_elements(By.TAG_NAME, "td")
                     category = cols[0].text
+                    eventID = toEventID(url)
                     name = toName(cols[2].text)
                     team = toTeam(cols[2].text)
                     time = finishTime(cols[3].text)
-                    finishData += [{"Name": name, "Team": team, "Category": category, "Time": time}]
+                    finishData += [{"EventID": eventID, "Name": name, "Team": team, "Category": category, "Time": time}]
             print("Found {} riders.".format(len(finishData)))
             toPrimes = driver.find_element(By.XPATH, '//*[@id="zp_submenu"]/ul/li[4]/a')
             toPrimes.click()
@@ -170,6 +172,13 @@ def scrape(urlpage, headless=False):
         print("Formatting scraped data...")
     print("Done.")
     return scraped_data
+
+def toEventID(url):
+    #expected URL format: https://zwiftpower.com/events.php?zid=3072775
+    eventID = ""
+    if len(url.split("zid=")) > 1:
+        eventID = url.split("zid=")[1]
+    return eventID
 
 def toTeam(string):
     #returns the team name if it exists
@@ -264,8 +273,9 @@ def getPrimePositions(sortP):
 
 def formatFinishes(data):
     categories = list(set([x["Category"] for x in data]))
-    toFile = {"Name": [], "Team": [], "Category": [], "Time (ms)": []}
+    toFile = {"EventID": [], "Name": [], "Team": [], "Category": [], "Time (ms)": []}
     for rider in data:
+        toFile["EventID"] += [rider["EventID"]]
         toFile["Name"] += [rider["Name"]]
         toFile["Team"] += [rider["Team"]]
         toFile["Category"] += [rider["Category"]]
