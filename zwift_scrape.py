@@ -1,3 +1,4 @@
+from cProfile import label
 import sys
 import re
 from os import path, listdir, mkdir, chmod
@@ -12,6 +13,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException, TimeoutException
+from credentials import *
 
 
 def scrape(urlpage, headless=False):
@@ -40,6 +42,13 @@ def scrape(urlpage, headless=False):
                     By.XPATH, '//*[@id="login"]/fieldset/div/div[1]/div/a'
                 )
                 login_button.click()
+                sleep(1)
+                emailField = driver.find_element(By.XPATH, '//input[@id="username"]')
+                passwordField = driver.find_element(By.XPATH, '//input[@id="password"]')
+                loginButton2 = driver.find_element(By.XPATH, '//button[@id="submit-button"]')
+                emailField.send_keys(email)
+                passwordField.send_keys(password)
+                loginButton2.click()
                 login_wait = WebDriverWait(driver, 30)
             raceName = login_wait.until(
                 lambda driver: driver.find_element(
@@ -61,6 +70,15 @@ def scrape(urlpage, headless=False):
                 By.XPATH, '//*[@id="table_event_results_final_paginate"]/ul/li'
             )[1:-1]
             nPages = len(pages)
+            columnButton = driver.find_element(By.XPATH, '//*[@id="columnFilter"]/button')
+            columnButton.click()
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            sleep(0.25)
+            rankBeforeButton = driver.find_element(By.XPATH, '//*[@id="columnFilter"]//*[@id="table_event_results_final_view_27"]/span')
+            rankBeforeButton.click()
+            rankEventButton = driver.find_element(By.XPATH, '//*[@id="columnFilter"]//*[@id="table_event_results_final_view_28"]/span')
+            rankEventButton.click()
+            sleep(0.25)
             results = driver.find_element(
                 By.XPATH, '//*[@id="table_event_results_final"]/tbody'
             )
@@ -88,7 +106,7 @@ def scrape(urlpage, headless=False):
                         results = driver.find_element(
                             By.XPATH, '//*[@id="table_event_results_final"]/tbody'
                         )
-                        sleep(0.5)
+                        sleep(0.25)
                 rows = results.find_elements(By.TAG_NAME, "tr")
                 for row in rows:
                     cols = row.find_elements(By.TAG_NAME, "td")
@@ -97,7 +115,9 @@ def scrape(urlpage, headless=False):
                     name = toName(cols[2].text)
                     team = toTeam(cols[2].text)
                     time = finishTime(cols[3].text)
-                    finishData += [{"EventID": eventID, "Name": name, "Team": team, "Category": category, "Time": time}]
+                    rankBefore = cols[17].text
+                    rankEvent = cols[18].text
+                    finishData += [{"EventID": eventID, "Name": name, "Team": team, "Category": category, "Time": time, "RankBefore": rankBefore, "RankEvent": rankEvent}]
             print("Found {} riders.".format(len(finishData)))
             toPrimes = driver.find_element(By.XPATH, '//*[@id="zp_submenu"]/ul/li[4]/a')
             toPrimes.click()
@@ -122,7 +142,7 @@ def scrape(urlpage, headless=False):
                         .text
                     )
                 except IndexError:
-                    sleep(0.5)
+                    sleep(0.25)
                 else:
                     break
             presults = {}
@@ -149,7 +169,7 @@ def scrape(urlpage, headless=False):
                             )
                         except StaleElementReferenceException:
                             testCell2 = testCell
-                        sleep(0.5)
+                        sleep(0.25)
 
                     testCell = testCell2
                     primeResults = driver.find_element(
@@ -273,13 +293,15 @@ def getPrimePositions(sortP):
 
 def formatFinishes(data):
     categories = list(set([x["Category"] for x in data]))
-    toFile = {"EventID": [], "Name": [], "Team": [], "Category": [], "Time (ms)": []}
+    toFile = {"EventID": [], "Name": [], "Team": [], "Category": [], "Time (ms)": [], "RankBefore": [], "RankEvent": []}
     for rider in data:
         toFile["EventID"] += [rider["EventID"]]
         toFile["Name"] += [rider["Name"]]
         toFile["Team"] += [rider["Team"]]
         toFile["Category"] += [rider["Category"]]
         toFile["Time (ms)"] += [rider["Time"]]
+        toFile["RankBefore"] += [rider["RankBefore"]]
+        toFile["RankEvent"] += [rider["RankEvent"]]
     fPand = pd.DataFrame.from_dict(toFile)
     sortedData = fPand.sort_values(by=["Category", "Time (ms)"])
     positions = getFinishPositions(sortedData)

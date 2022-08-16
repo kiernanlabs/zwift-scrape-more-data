@@ -5,6 +5,8 @@ A Python command-line utility to scrape race results from [ZwiftPower](https://z
 
 ZwiftPower now requires you to log in with a Zwift account in order to access their data. The WebDriver will wait for you to log in before proceeding to scrape results. Because of this, running with a headless WebDriver no longer works.
 
+ADD IN THIS FORK ONLY: Create a separate python file in the root directory: credentials.py that sets two variables "email" and "password" that will be automatically filled in during the login screen
+
 ## Description
 
 Uses the Selenium Python API with the Firefox geckodriver to scrape race results from zwiftpower. 
