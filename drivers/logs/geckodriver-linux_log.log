@@ -1503,3 +1503,912 @@ JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660693575819	geckodriver	INFO	Listening on 127.0.0.1:55219
+1660693576331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56859" "-no-remote" "-profile" "/tmp/rust_mozprofileJcWQGA"
+[GFX1-]: glxtest: libEGL missing
+1660693590324	Marionette	INFO	Marionette enabled
+1660693590329	Marionette	INFO	Listening on port 44971
+WebDriver BiDi listening on ws://localhost:56859
+1660693590563	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1660693594899	geckodriver	INFO	Listening on 127.0.0.1:53785
+1660693594906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44053" "-no-remote" "-profile" "/tmp/rust_mozprofilemKfrzN"
+[GFX1-]: glxtest: libEGL missing
+1660693602403	Marionette	INFO	Marionette enabled
+1660693602407	Marionette	INFO	Listening on port 40339
+WebDriver BiDi listening on ws://localhost:44053
+1660693602594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemKfrzN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:44053/devtools/browser/ab14efea-8632-4114-a9d3-c2832e9b31cb
+1660693604590	Marionette	INFO	Stopped listening on port 40339
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660693712287	geckodriver	INFO	Listening on 127.0.0.1:41077
+1660693712293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50973" "-no-remote" "-profile" "/tmp/rust_mozprofile25qfUY"
+[GFX1-]: glxtest: libEGL missing
+1660693720079	Marionette	INFO	Marionette enabled
+1660693720083	Marionette	INFO	Listening on port 39219
+WebDriver BiDi listening on ws://localhost:50973
+1660693720235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile25qfUY/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50973/devtools/browser/131acb4c-4cdc-498d-baa1-123ffc45fdcb
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660693726692	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660693731085	Marionette	INFO	Stopped listening on port 39219
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660693798153	geckodriver	INFO	Listening on 127.0.0.1:54895
+1660693798158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43421" "-no-remote" "-profile" "/tmp/rust_mozprofileVKDalX"
+[GFX1-]: glxtest: libEGL missing
+1660693806129	Marionette	INFO	Marionette enabled
+1660693806133	Marionette	INFO	Listening on port 33475
+WebDriver BiDi listening on ws://localhost:43421
+1660693806285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVKDalX/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43421/devtools/browser/7c505428-5059-449d-8f7b-c1c386a34585
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660693811812	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660693968576	geckodriver	INFO	Listening on 127.0.0.1:34427
+1660693968581	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47639" "-no-remote" "-profile" "/tmp/rust_mozprofileeVT6au"
+[GFX1-]: glxtest: libEGL missing
+1660693975148	Marionette	INFO	Marionette enabled
+1660693975152	Marionette	INFO	Listening on port 32849
+WebDriver BiDi listening on ws://localhost:47639
+1660693975301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeVT6au/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47639/devtools/browser/1f8ea6ed-8d0e-4fe2-ab55-795758d1bdb8
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660693981251	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660694543924	geckodriver	INFO	Listening on 127.0.0.1:53101
+1660694543931	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55923" "-no-remote" "-profile" "/tmp/rust_mozprofile8JtLwP"
+[GFX1-]: glxtest: libEGL missing
+1660694551712	Marionette	INFO	Marionette enabled
+1660694551717	Marionette	INFO	Listening on port 43975
+WebDriver BiDi listening on ws://localhost:55923
+1660694551873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8JtLwP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55923/devtools/browser/45dc5d62-8362-4b5c-bd8b-53ff0c20fea2
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660694557727	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660694666294	geckodriver	INFO	Listening on 127.0.0.1:36429
+1660694666302	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47999" "-no-remote" "-profile" "/tmp/rust_mozprofileb1XJp3"
+[GFX1-]: glxtest: libEGL missing
+1660694673948	Marionette	INFO	Marionette enabled
+1660694673952	Marionette	INFO	Listening on port 36553
+WebDriver BiDi listening on ws://localhost:47999
+1660694674282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb1XJp3/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47999/devtools/browser/44f96f9c-30af-43f3-8ad3-f1b042dcfbe0
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660694680010	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660694688734	Marionette	INFO	Stopped listening on port 36553
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660695010850	geckodriver	INFO	Listening on 127.0.0.1:55049
+1660695010857	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45441" "-no-remote" "-profile" "/tmp/rust_mozprofileN9JxPJ"
+[GFX1-]: glxtest: libEGL missing
+1660695018381	Marionette	INFO	Marionette enabled
+1660695018385	Marionette	INFO	Listening on port 34185
+WebDriver BiDi listening on ws://localhost:45441
+1660695018517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileN9JxPJ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45441/devtools/browser/9d81bd34-6aee-40e4-b40e-d67f37701b5d
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660695024253	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660695032651	Marionette	INFO	Stopped listening on port 34185
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660695033216	geckodriver	INFO	Listening on 127.0.0.1:38449
+1660695033232	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46247" "-no-remote" "-profile" "/tmp/rust_mozprofileMeUGfx"
+[GFX1-]: glxtest: libEGL missing
+1660695039684	Marionette	INFO	Marionette enabled
+1660695039691	Marionette	INFO	Listening on port 33121
+WebDriver BiDi listening on ws://localhost:46247
+1660695039872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMeUGfx/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46247/devtools/browser/6d0ed1b5-e64c-419f-a75e-4e675d8070c0
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660695046111	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660695061948	Marionette	INFO	Stopped listening on port 33121
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660695415340	geckodriver	INFO	Listening on 127.0.0.1:45057
+1660695415348	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58727" "-no-remote" "-profile" "/tmp/rust_mozprofilebfnKyN"
+[GFX1-]: glxtest: libEGL missing
+1660695422304	Marionette	INFO	Marionette enabled
+1660695422308	Marionette	INFO	Listening on port 37807
+WebDriver BiDi listening on ws://localhost:58727
+1660695422463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebfnKyN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58727/devtools/browser/4b4464e4-9bc0-476f-8a88-0dd486ef657a
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660695428728	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660695437366	Marionette	INFO	Stopped listening on port 37807
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660695437920	geckodriver	INFO	Listening on 127.0.0.1:52689
+1660695437925	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39433" "-no-remote" "-profile" "/tmp/rust_mozprofileanXIIT"
+[GFX1-]: glxtest: libEGL missing
+1660695444852	Marionette	INFO	Marionette enabled
+1660695444855	Marionette	INFO	Listening on port 38337
+WebDriver BiDi listening on ws://localhost:39433
+1660695445156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileanXIIT/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39433/devtools/browser/08df862e-b426-44d1-b206-dff633c523e3
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660695450713	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660695465707	Marionette	INFO	Stopped listening on port 38337
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660695611721	geckodriver	INFO	Listening on 127.0.0.1:49767
+1660695611727	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52565" "-no-remote" "-profile" "/tmp/rust_mozprofile1jbkYL"
+[GFX1-]: glxtest: libEGL missing
+1660695619494	Marionette	INFO	Marionette enabled
+1660695619498	Marionette	INFO	Listening on port 33923
+WebDriver BiDi listening on ws://localhost:52565
+1660695619658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1jbkYL/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52565/devtools/browser/d40c9679-0742-42fb-9e57-b43e3bba3121
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660695625401	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660695633376	Marionette	INFO	Stopped listening on port 33923
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660695633926	geckodriver	INFO	Listening on 127.0.0.1:36787
+1660695633932	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57023" "-no-remote" "-profile" "/tmp/rust_mozprofilezsbrdD"
+[GFX1-]: glxtest: libEGL missing
+1660695640540	Marionette	INFO	Marionette enabled
+1660695640544	Marionette	INFO	Listening on port 38735
+WebDriver BiDi listening on ws://localhost:57023
+1660695640703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezsbrdD/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57023/devtools/browser/8478ff7f-f861-4887-a3ec-8b6512ad522b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660695646994	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660695676378	Marionette	INFO	Stopped listening on port 38735
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660697182931	geckodriver	INFO	Listening on 127.0.0.1:37535
+1660697182938	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37193" "-no-remote" "-profile" "/tmp/rust_mozprofile4O2KFk"
+[GFX1-]: glxtest: libEGL missing
+1660697185056	Marionette	INFO	Marionette enabled
+1660697185060	Marionette	INFO	Listening on port 34821
+WebDriver BiDi listening on ws://localhost:37193
+1660697185286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4O2KFk/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:37193/devtools/browser/fb930ed5-11bf-44ec-88b0-7d542d62e604
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660697190360	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660697197076	Marionette	INFO	Stopped listening on port 34821
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660697197612	geckodriver	INFO	Listening on 127.0.0.1:50001
+1660697197616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45893" "-no-remote" "-profile" "/tmp/rust_mozprofileKkexDr"
+[GFX1-]: glxtest: libEGL missing
+1660697198967	Marionette	INFO	Marionette enabled
+1660697198971	Marionette	INFO	Listening on port 35881
+WebDriver BiDi listening on ws://localhost:45893
+1660697199082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKkexDr/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45893/devtools/browser/14d2e154-bdae-44b5-9d0b-bce22d244413
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660697203643	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660697211787	Marionette	INFO	Stopped listening on port 35881
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660697299983	geckodriver	INFO	Listening on 127.0.0.1:44641
+1660697299990	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46405" "-no-remote" "-profile" "/tmp/rust_mozprofiletFGtIw"
+[GFX1-]: glxtest: libEGL missing
+1660697301247	Marionette	INFO	Marionette enabled
+1660697301250	Marionette	INFO	Listening on port 42731
+WebDriver BiDi listening on ws://localhost:46405
+1660697301369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletFGtIw/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46405/devtools/browser/e37b4e27-ced4-425c-b561-3375d11e8755
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660697306341	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660697313844	Marionette	INFO	Stopped listening on port 42731
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660697314378	geckodriver	INFO	Listening on 127.0.0.1:47259
+1660697314382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54833" "-no-remote" "-profile" "/tmp/rust_mozprofileBIlupu"
+[GFX1-]: glxtest: libEGL missing
+1660697315763	Marionette	INFO	Marionette enabled
+1660697315767	Marionette	INFO	Listening on port 34427
+WebDriver BiDi listening on ws://localhost:54833
+1660697315926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBIlupu/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:54833/devtools/browser/e7504304-4c09-4908-9b15-26c4ffe78f4b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660697320927	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660697326266	Marionette	INFO	Stopped listening on port 34427
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660697397693	geckodriver	INFO	Listening on 127.0.0.1:45183
+1660697397699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48767" "-no-remote" "-profile" "/tmp/rust_mozprofileJEy5Dm"
+[GFX1-]: glxtest: libEGL missing
+1660697399808	Marionette	INFO	Marionette enabled
+1660697399812	Marionette	INFO	Listening on port 40287
+WebDriver BiDi listening on ws://localhost:48767
+1660697400041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJEy5Dm/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:48767/devtools/browser/3804d29c-bd65-430c-b625-4f6dac27108c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660697404787	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660697446937	Marionette	INFO	Stopped listening on port 40287
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660697498606	geckodriver	INFO	Listening on 127.0.0.1:51651
+1660697498612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34661" "-no-remote" "-profile" "/tmp/rust_mozprofilexzXpss"
+[GFX1-]: glxtest: libEGL missing
+1660697499978	Marionette	INFO	Marionette enabled
+1660697499981	Marionette	INFO	Listening on port 35907
+WebDriver BiDi listening on ws://localhost:34661
+1660697500102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexzXpss/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:34661/devtools/browser/a0f5d1a4-2973-40a7-9a63-1e1ff840a919
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660697506409	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660697514191	Marionette	INFO	Stopped listening on port 35907
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660697514733	geckodriver	INFO	Listening on 127.0.0.1:39409
+1660697514737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42849" "-no-remote" "-profile" "/tmp/rust_mozprofile8e8fvc"
+[GFX1-]: glxtest: libEGL missing
+1660697516075	Marionette	INFO	Marionette enabled
+1660697516079	Marionette	INFO	Listening on port 35003
+WebDriver BiDi listening on ws://localhost:42849
+1660697516198	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8e8fvc/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:42849/devtools/browser/504753c6-87d6-4c34-8655-4d8ca2965d5d
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660697520840	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660697565506	Marionette	INFO	Stopped listening on port 35003
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660697784960	geckodriver	INFO	Listening on 127.0.0.1:56165
+1660697784967	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33271" "-no-remote" "-profile" "/tmp/rust_mozprofileuXdxpE"
+[GFX1-]: glxtest: libEGL missing
+1660697786131	Marionette	INFO	Marionette enabled
+1660697786135	Marionette	INFO	Listening on port 45997
+WebDriver BiDi listening on ws://localhost:33271
+1660697786262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuXdxpE/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:33271/devtools/browser/d4d23214-43ed-4cbb-8df2-7d9ff0414d10
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660697791468	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660697799926	Marionette	INFO	Stopped listening on port 45997
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660697800465	geckodriver	INFO	Listening on 127.0.0.1:39813
+1660697800469	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55315" "-no-remote" "-profile" "/tmp/rust_mozprofileWoFlv4"
+[GFX1-]: glxtest: libEGL missing
+1660697802097	Marionette	INFO	Marionette enabled
+1660697802101	Marionette	INFO	Listening on port 44165
+WebDriver BiDi listening on ws://localhost:55315
+1660697802233	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWoFlv4/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55315/devtools/browser/e3ade5dc-1ab1-438f-a0d1-5b1df021f2f4
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660697806833	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660697899648	Marionette	INFO	Stopped listening on port 44165
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660698604831	geckodriver	INFO	Listening on 127.0.0.1:57925
+1660698604838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34791" "-no-remote" "-profile" "/tmp/rust_mozprofile2mKwIt"
+[GFX1-]: glxtest: libEGL missing
+1660698606986	Marionette	INFO	Marionette enabled
+1660698606990	Marionette	INFO	Listening on port 32877
+WebDriver BiDi listening on ws://localhost:34791
+1660698607104	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2mKwIt/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:34791/devtools/browser/dabd4068-5cd4-44d4-bafb-78872725fe5f
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660698612000	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660698619433	Marionette	INFO	Stopped listening on port 32877
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660698619979	geckodriver	INFO	Listening on 127.0.0.1:51453
+1660698619982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39755" "-no-remote" "-profile" "/tmp/rust_mozprofileCF18y2"
+[GFX1-]: glxtest: libEGL missing
+1660698621314	Marionette	INFO	Marionette enabled
+1660698621318	Marionette	INFO	Listening on port 40355
+WebDriver BiDi listening on ws://localhost:39755
+1660698621453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCF18y2/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39755/devtools/browser/8daf5f05-66e4-4230-9cf7-c634595ce8ea
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660698626820	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660699467651	Marionette	INFO	Stopped listening on port 40355
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660699652096	geckodriver	INFO	Listening on 127.0.0.1:53099
+1660699652104	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40501" "-no-remote" "-profile" "/tmp/rust_mozprofileT4TCgJ"
+[GFX1-]: glxtest: libEGL missing
+1660699654209	Marionette	INFO	Marionette enabled
+1660699654213	Marionette	INFO	Listening on port 42731
+WebDriver BiDi listening on ws://localhost:40501
+1660699654428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT4TCgJ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:40501/devtools/browser/29005dd5-19a6-4c69-a49f-e5a33b3c8621
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660699659907	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660699668926	Marionette	INFO	Stopped listening on port 42731
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660699669467	geckodriver	INFO	Listening on 127.0.0.1:36477
+1660699669470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35181" "-no-remote" "-profile" "/tmp/rust_mozprofilesb6aIN"
+[GFX1-]: glxtest: libEGL missing
+1660699670827	Marionette	INFO	Marionette enabled
+1660699670831	Marionette	INFO	Listening on port 44539
+WebDriver BiDi listening on ws://localhost:35181
+1660699670953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesb6aIN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35181/devtools/browser/fe72bf16-efe6-4dbc-99cf-81174cef89b5
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660699675613	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660699760210	Marionette	INFO	Stopped listening on port 44539
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660699843606	geckodriver	INFO	Listening on 127.0.0.1:42201
+1660699843613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46653" "-no-remote" "-profile" "/tmp/rust_mozprofile89qBBt"
+[GFX1-]: glxtest: libEGL missing
+1660699845756	Marionette	INFO	Marionette enabled
+1660699845760	Marionette	INFO	Listening on port 36527
+WebDriver BiDi listening on ws://localhost:46653
+1660699845864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile89qBBt/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46653/devtools/browser/59a0accd-b716-46ba-9c78-4514a6830277
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660699850898	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660699858025	Marionette	INFO	Stopped listening on port 36527
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660699858562	geckodriver	INFO	Listening on 127.0.0.1:35321
+1660699859070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38491" "-no-remote" "-profile" "/tmp/rust_mozprofile2GxnJN"
+[GFX1-]: glxtest: libEGL missing
+1660699860212	Marionette	INFO	Marionette enabled
+1660699860216	Marionette	INFO	Listening on port 42921
+WebDriver BiDi listening on ws://localhost:38491
+1660699860336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2GxnJN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38491/devtools/browser/65020713-14d9-4b3a-8a0a-9684a1131987
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660699865202	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660699967332	Marionette	INFO	Stopped listening on port 42921
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660700046928	geckodriver	INFO	Listening on 127.0.0.1:59019
+1660700046935	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44565" "-no-remote" "-profile" "/tmp/rust_mozprofileBONjeL"
+[GFX1-]: glxtest: libEGL missing
+1660700049052	Marionette	INFO	Marionette enabled
+1660700049055	Marionette	INFO	Listening on port 42817
+WebDriver BiDi listening on ws://localhost:44565
+1660700049275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBONjeL/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:44565/devtools/browser/52cc7670-fb90-4e80-a442-55439d910093
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660700053870	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660700061941	Marionette	INFO	Stopped listening on port 42817
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660700062509	geckodriver	INFO	Listening on 127.0.0.1:35149
+1660700062513	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50843" "-no-remote" "-profile" "/tmp/rust_mozprofilerMHAIl"
+[GFX1-]: glxtest: libEGL missing
+1660700063908	Marionette	INFO	Marionette enabled
+1660700063912	Marionette	INFO	Listening on port 40217
+WebDriver BiDi listening on ws://localhost:50843
+1660700064037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerMHAIl/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50843/devtools/browser/6ad012e7-7967-4545-bc83-2d86631ebc4e
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660700069212	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660700182887	Marionette	INFO	Stopped listening on port 40217
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660700409321	geckodriver	INFO	Listening on 127.0.0.1:34619
+1660700409328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38957" "-no-remote" "-profile" "/tmp/rust_mozprofileaC2Dms"
+[GFX1-]: glxtest: libEGL missing
+1660700411620	Marionette	INFO	Marionette enabled
+1660700411624	Marionette	INFO	Listening on port 39079
+WebDriver BiDi listening on ws://localhost:38957
+1660700411766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaC2Dms/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38957/devtools/browser/7f7f56dd-d2d0-44c1-aeb3-9695439ebc4f
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660700417150	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660700443791	Marionette	INFO	Stopped listening on port 39079
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660700516881	geckodriver	INFO	Listening on 127.0.0.1:59953
+1660700516889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41475" "-no-remote" "-profile" "/tmp/rust_mozprofileZqL6CN"
+[GFX1-]: glxtest: libEGL missing
+1660700518232	Marionette	INFO	Marionette enabled
+1660700518236	Marionette	INFO	Listening on port 39657
+WebDriver BiDi listening on ws://localhost:41475
+1660700518353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZqL6CN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41475/devtools/browser/f287b49f-d8d2-4ae1-be79-26e50c6c8046
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660700523836	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660700546796	Marionette	INFO	Stopped listening on port 39657
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660700688999	geckodriver	INFO	Listening on 127.0.0.1:40181
+1660700689006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46805" "-no-remote" "-profile" "/tmp/rust_mozprofile0atk4k"
+[GFX1-]: glxtest: libEGL missing
+1660700691113	Marionette	INFO	Marionette enabled
+1660700691117	Marionette	INFO	Listening on port 42269
+WebDriver BiDi listening on ws://localhost:46805
+1660700691360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0atk4k/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46805/devtools/browser/42a2535d-3b36-4273-80b6-79060c8e3cb1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660700696146	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660700704327	Marionette	INFO	Stopped listening on port 42269
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660700704881	geckodriver	INFO	Listening on 127.0.0.1:35753
+1660700704884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59187" "-no-remote" "-profile" "/tmp/rust_mozprofileeqJh3u"
+[GFX1-]: glxtest: libEGL missing
+1660700706301	Marionette	INFO	Marionette enabled
+1660700706304	Marionette	INFO	Listening on port 37333
+WebDriver BiDi listening on ws://localhost:59187
+1660700706517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeqJh3u/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:59187/devtools/browser/8aeb7aed-33f1-414e-866a-9a43a7f3a659
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660700711711	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660700752564	Marionette	INFO	Stopped listening on port 37333
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660701011413	geckodriver	INFO	Listening on 127.0.0.1:47335
+1660701011421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50517" "-no-remote" "-profile" "/tmp/rust_mozprofilekO3x7P"
+[GFX1-]: glxtest: libEGL missing
+1660701013597	Marionette	INFO	Marionette enabled
+1660701013601	Marionette	INFO	Listening on port 37471
+WebDriver BiDi listening on ws://localhost:50517
+1660701013716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekO3x7P/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50517/devtools/browser/b3142059-a052-4327-b05a-98e62d09215c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660701019318	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660701027270	Marionette	INFO	Stopped listening on port 37471
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660701027810	geckodriver	INFO	Listening on 127.0.0.1:47713
+1660701027813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58587" "-no-remote" "-profile" "/tmp/rust_mozprofileB9ktWJ"
+[GFX1-]: glxtest: libEGL missing
+1660701029153	Marionette	INFO	Marionette enabled
+1660701029157	Marionette	INFO	Listening on port 41595
+WebDriver BiDi listening on ws://localhost:58587
+1660701029271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileB9ktWJ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58587/devtools/browser/6560593e-ab6e-40aa-945a-43f506bf9770
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660701034304	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660701094960	Marionette	INFO	Stopped listening on port 41595
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660701206537	geckodriver	INFO	Listening on 127.0.0.1:57607
+1660701206544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58709" "-no-remote" "-profile" "/tmp/rust_mozprofilemJJ9gD"
+[GFX1-]: glxtest: libEGL missing
+1660701208695	Marionette	INFO	Marionette enabled
+1660701208701	Marionette	INFO	Listening on port 41333
+WebDriver BiDi listening on ws://localhost:58709
+1660701208840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemJJ9gD/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58709/devtools/browser/41ee06b2-af8a-4c8e-b6f2-37a770626262
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660701214021	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660701221958	Marionette	INFO	Stopped listening on port 41333
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660701222514	geckodriver	INFO	Listening on 127.0.0.1:50061
+1660701222518	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46793" "-no-remote" "-profile" "/tmp/rust_mozprofilevyBye4"
+[GFX1-]: glxtest: libEGL missing
+1660701223867	Marionette	INFO	Marionette enabled
+1660701223870	Marionette	INFO	Listening on port 37993
+WebDriver BiDi listening on ws://localhost:46793
+1660701224000	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevyBye4/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46793/devtools/browser/fb93586f-2cf1-4c2c-b16f-5b702025b706
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 185: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1660701228176	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660701286538	Marionette	INFO	Stopped listening on port 37993
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660701366794	geckodriver	INFO	Listening on 127.0.0.1:58347
+1660701366801	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39241" "-no-remote" "-profile" "/tmp/rust_mozprofileeLIEI8"
+[GFX1-]: glxtest: libEGL missing
+1660701368959	Marionette	INFO	Marionette enabled
+1660701368963	Marionette	INFO	Listening on port 46201
+WebDriver BiDi listening on ws://localhost:39241
+1660701369069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeLIEI8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39241/devtools/browser/26071cb4-d91c-46ea-8079-36bb2e31384c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660701373801	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660701381462	Marionette	INFO	Stopped listening on port 46201
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660701382000	geckodriver	INFO	Listening on 127.0.0.1:54777
+1660701382004	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33333" "-no-remote" "-profile" "/tmp/rust_mozprofileCq6oht"
+[GFX1-]: glxtest: libEGL missing
+1660701383399	Marionette	INFO	Marionette enabled
+1660701383403	Marionette	INFO	Listening on port 46361
+WebDriver BiDi listening on ws://localhost:33333
+1660701383514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCq6oht/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:33333/devtools/browser/69901f93-b0c7-441d-a916-cdab7f9cc91c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660701388451	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660701718413	Marionette	INFO	Stopped listening on port 46361
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660701806928	geckodriver	INFO	Listening on 127.0.0.1:34565
+1660701806934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50149" "-no-remote" "-profile" "/tmp/rust_mozprofileK9ZFlr"
+[GFX1-]: glxtest: libEGL missing
+1660701809153	Marionette	INFO	Marionette enabled
+1660701809157	Marionette	INFO	Listening on port 41101
+WebDriver BiDi listening on ws://localhost:50149
+1660701809378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileK9ZFlr/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50149/devtools/browser/c76558c5-4be5-4353-867e-8c695e3fb805
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660701814470	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660701822423	Marionette	INFO	Stopped listening on port 41101
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660701822966	geckodriver	INFO	Listening on 127.0.0.1:41517
+1660701822969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47927" "-no-remote" "-profile" "/tmp/rust_mozprofileB3kNOD"
+[GFX1-]: glxtest: libEGL missing
+1660701824252	Marionette	INFO	Marionette enabled
+1660701824256	Marionette	INFO	Listening on port 38975
+WebDriver BiDi listening on ws://localhost:47927
+1660701824375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileB3kNOD/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47927/devtools/browser/d0afa9e8-5eb5-4398-b2aa-1dc194336e26
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660701830290	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660702069775	Marionette	INFO	Stopped listening on port 38975
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660702298530	geckodriver	INFO	Listening on 127.0.0.1:42371
+1660702298538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56223" "-no-remote" "-profile" "/tmp/rust_mozprofileHPmWNm"
+[GFX1-]: glxtest: libEGL missing
+1660702300648	Marionette	INFO	Marionette enabled
+1660702300652	Marionette	INFO	Listening on port 46553
+WebDriver BiDi listening on ws://localhost:56223
+1660702300862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHPmWNm/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56223/devtools/browser/1a3f19c8-5ac8-4dfa-8137-139567c425e2
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660702305606	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660702312397	Marionette	INFO	Stopped listening on port 46553
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660702312937	geckodriver	INFO	Listening on 127.0.0.1:52613
+1660702312941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56945" "-no-remote" "-profile" "/tmp/rust_mozprofileccIhCY"
+[GFX1-]: glxtest: libEGL missing
+1660702314292	Marionette	INFO	Marionette enabled
+1660702314296	Marionette	INFO	Listening on port 33835
+WebDriver BiDi listening on ws://localhost:56945
+1660702314415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileccIhCY/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56945/devtools/browser/a8d71859-811a-4051-ad05-c25bc33b3147
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://zwiftpower.com"
+1660702318994	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://secure.zwift.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1660702401615	Marionette	INFO	Stopped listening on port 33835
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
