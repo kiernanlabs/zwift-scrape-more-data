@@ -14,6 +14,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException, TimeoutException
 from credentials import *
+import time
 import zwift_scrape
 
 
@@ -64,6 +65,7 @@ def getEventURLs(urlpage, headless=False):
         return urls
             
 def main():
+    startTime = time.time()
     parser = ArgumentParser(
         description="Scrape the first X urls from the zwiftpower results page"
     )
@@ -74,14 +76,31 @@ def main():
     print(f"{len(urls)} Events found; scraping first {settings.count}")
     
     urls = urls[0:settings.count]
+    successFinishes = 0
+    finishErrorURLs = []
+    successPrimes = 0
+    primeErrorURLs = []
 
     for n, url in enumerate(urls) :
         print(f'URL #{n+1}/{settings.count}: {url}')
         urlArray = [url]
         results = zwift_scrape.scrape(urlArray)  
         for (name, event) in enumerate(results.items()):
-            zwift_scrape.mkdirAndSave("finishes", event[1][0], event[0])
-            zwift_scrape.mkdirAndSave("primes", event[1][0], event[0])
+            if event[1][0] is None: finishErrorURLs.append(url)
+            else: 
+                successFinishes += 1
+                zwift_scrape.mkdirAndSave("finishes", event[1][0], event[0])
+            if event[1][1] is None: primeErrorURLs.append(url)
+            else: 
+                successPrimes += 1
+                zwift_scrape.mkdirAndSave("primes", event[1][1], event[0])
+
+    print(f'==== [Run Report] Total Execution time: {time.time() - startTime}')
+    print(f'==== [Run Report] Successful finish data scrapes: {successFinishes}/{settings.count}')
+    print(f'==== [Run Report] Successful prime data scrapes: {successPrimes}/{settings.count}')
+    print(f'==== [Run Report] events with finish errors:')
+    for errorUrl in finishErrorURLs:
+        print(f'==== [Run Report] * {errorUrl}')
 
 if __name__ == "__main__":
     main()
