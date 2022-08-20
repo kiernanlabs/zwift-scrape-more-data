@@ -34,7 +34,7 @@ def scrape(urlpage, headless=False):
     ) as driver:
         driver.implicitly_wait(10)
         for n, url in enumerate(urlpage):
-            print("Scraping data from: {}.".format(url))
+            print("--Scraping data from: {}.".format(url))
             finishData = []
             driver.get(url)
             if n == 0:
@@ -57,7 +57,12 @@ def scrape(urlpage, headless=False):
             )
             raceName = re.sub(r"[^A-Za-z0-9 ]+", "", raceName)
             raceName = toEventID(url) + " " + raceName
-            print(f"{n}:{raceName} - Downloading data")
+            
+            # expecting <span data-value="1661013900" id="EVENT_DATE">Today 12:45</span>
+            raceTimestamp = driver.find_element(
+                    By.XPATH, '//*[@id="EVENT_DATE"]'
+                ).get_attribute('data-value')
+            print(f"--{n}:{raceName} - Downloading data")
             
             #Attempt to load the page
             try:
@@ -70,7 +75,7 @@ def scrape(urlpage, headless=False):
                     > 0
                 )
             except:
-                print(f"{n}:{raceName} - failed to load")
+                print(f"--{n}:{raceName} - failed to load")
                 continue #do next URL
             
             #Attempt to capture finish positions
@@ -91,7 +96,7 @@ def scrape(urlpage, headless=False):
                 results = driver.find_element(
                     By.XPATH, '//*[@id="table_event_results_final"]/tbody'
                 )
-                print("Collecting finish data for all riders...")
+                print("--Collecting finish data for all riders...")
                 for n in range(2, nPages + 2):
                     if n > 2:
                         button = driver.find_element(
@@ -126,10 +131,10 @@ def scrape(urlpage, headless=False):
                         time = finishTime(cols[3].text)
                         rankBefore = cols[17].text
                         rankEvent = cols[18].text
-                        finishData += [{"EventID": eventID, "Name": name, "Team": team, "Category": category, "Time": time, "RankBefore": rankBefore, "RankEvent": rankEvent}]
-                print("Found {} riders.".format(len(finishData)))
+                        finishData += [{"EventID": eventID, "EventTimestamp": raceTimestamp, "Name": name, "Team": team, "Category": category, "Time": time, "RankBefore": rankBefore, "RankEvent": rankEvent}]
+                print("--Found {} riders.".format(len(finishData)))
             except Exception as e:
-                print(f"Failed to load finish data:{e}")
+                print(f"--Failed to load finish data:{e}")
                 finishData = []
             
             #Attempt to capture primes positions
@@ -149,14 +154,18 @@ def scrape(urlpage, headless=False):
                 primeResults = driver.find_element(
                     By.XPATH, '//*[@id="table_event_primes"]/tbody'
                 )
+                n = 0
                 while True:
                     try:
+                        n = n + 1
                         testCell = (
                             primeResults.find_elements(By.TAG_NAME, "tr")[0]
                             .find_elements(By.TAG_NAME, "td")[3]
                             .text
                         )
                     except IndexError:
+                        if n > 10 :
+                            raise Exception("Timeout waiting for prime data")
                         sleep(0.25)
                     else:
                         break
@@ -164,7 +173,7 @@ def scrape(urlpage, headless=False):
                 primeButtons.reverse()
                 for catBut in categoryBottons:
                     category = catBut.text
-                    print("Collecting prime data for category {}...".format(category))
+                    print("--Collecting prime data for category {}...".format(category))
                     presults[category] = {}
                     catBut.click()
                     for primeBut in primeButtons:
@@ -203,12 +212,12 @@ def scrape(urlpage, headless=False):
                             combinedName = "{}_{}".format(lap, splitName)
                             presults[category][prime][combinedName] = scores
             except Exception as e:
-                print(f"Failed to load prime data:{e}")
+                print(f"--Failed to load prime data:{e}")
                 presults = []
             scraped_data[raceName] = [formatFinishes(finishData), formatPrimes(presults)]
-            print("Closing connection to {}".format(url))
-        print("Formatting scraped data...")
-    print("Done.")
+            print("--Closing connection to {}".format(url))
+        print("--Formatting scraped data...")
+    print("--Done.")
     return scraped_data
 
 def toEventID(url):
@@ -312,9 +321,10 @@ def getPrimePositions(sortP):
 def formatFinishes(data):
     if data == []: return None
     categories = list(set([x["Category"] for x in data]))
-    toFile = {"EventID": [], "Name": [], "Team": [], "Category": [], "Time (ms)": [], "RankBefore": [], "RankEvent": []}
+    toFile = {"EventID": [], "EventTimestamp": [], "Name": [], "Team": [], "Category": [], "Time (ms)": [], "RankBefore": [], "RankEvent": []}
     for rider in data:
         toFile["EventID"] += [rider["EventID"]]
+        toFile["EventTimestamp"] += [rider["EventTimestamp"]]
         toFile["Name"] += [rider["Name"]]
         toFile["Team"] += [rider["Team"]]
         toFile["Category"] += [rider["Category"]]

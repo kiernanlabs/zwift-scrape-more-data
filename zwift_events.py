@@ -64,13 +64,24 @@ def getEventURLs(urlpage, headless=False):
         return urls
             
 def main():
+    parser = ArgumentParser(
+        description="Scrape the first X urls from the zwiftpower results page"
+    )
+    parser.add_argument("count", nargs='?', default=10, help="number of URLs to scrape ZwiftPower results from")
+    settings = parser.parse_args()
+        
     urls = getEventURLs("https://zwiftpower.com/")
-    print(f"{len(urls)} Events found")
-    results = zwift_scrape.scrape(urls[0:10])
+    print(f"{len(urls)} Events found; scraping first {settings.count}")
+    
+    urls = urls[0:settings.count]
 
-    for (name, event) in enumerate(results.items()):
-        zwift_scrape.mkdirAndSave("finishes", event[1][0], event[0])
-        zwift_scrape.mkdirAndSave("primes", event[1][0], event[0])
+    for n, url in enumerate(urls) :
+        print(f'URL #{n+1}/{settings.count}: {url}')
+        urlArray = [url]
+        results = zwift_scrape.scrape(urlArray)  
+        for (name, event) in enumerate(results.items()):
+            zwift_scrape.mkdirAndSave("finishes", event[1][0], event[0])
+            zwift_scrape.mkdirAndSave("primes", event[1][0], event[0])
 
 if __name__ == "__main__":
     main()
