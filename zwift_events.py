@@ -69,7 +69,7 @@ def main():
     parser = ArgumentParser(
         description="Scrape the first X urls from the zwiftpower results page"
     )
-    parser.add_argument("count", nargs='?', default=10, help="number of URLs to scrape ZwiftPower results from")
+    parser.add_argument("count", nargs='?', default=25, help="number of URLs to scrape ZwiftPower results from")
     settings = parser.parse_args()
         
     urls = getEventURLs("https://zwiftpower.com/")
@@ -95,10 +95,10 @@ def main():
                 successPrimes += 1
                 zwift_scrape.mkdirAndSave("primes", event[1][1], event[0])
 
-    print(f'==== [Run Report] Total Execution time: {time.time() - startTime}')
+    print(f'==== [Run Report] Total Execution time: {round((time.time() - startTime)/60,1)}')
     print(f'==== [Run Report] Successful finish data scrapes: {successFinishes}/{settings.count}')
     print(f'==== [Run Report] Successful prime data scrapes: {successPrimes}/{settings.count}')
-    print(f'==== [Run Report] events with finish errors:')
+    print(f'==== [Run Report] events with scrape errors:')
     for errorUrl in finishErrorURLs:
         print(f'==== [Run Report] * {errorUrl}')
 
