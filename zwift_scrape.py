@@ -131,6 +131,15 @@ def scrape(urlpage, headless=False):
                         time = finishTime(cols[3].text)
                         rankBefore = cols[17].text
                         rankEvent = cols[18].text
+
+                        # if there is a primes column, go one more
+                        primeCol = results.find_elements(
+                            By.XPATH, '//*[@id="table_event_results_final"]//th[@title="Points allocated for crossing the banner inside the top 10 on various laps."]'
+                        )
+                        if primeCol:
+                            rankBefore = cols[18].text
+                            rankEvent = cols[19].text
+                        
                         finishData += [{"EventID": eventID, "EventTimestamp": raceTimestamp, "Name": name, "Team": team, "Category": category, "Time": time, "RankBefore": rankBefore, "RankEvent": rankEvent}]
                 print("--Found {} riders.".format(len(finishData)))
             except Exception as e:
