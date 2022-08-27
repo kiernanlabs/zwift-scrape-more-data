@@ -2387,3 +2387,7 @@ JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets
 JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
 JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
 JavaScript warning: https://zwiftpower.com/zp/js/mini/event_results693.js?assets_version=132, line 1793: unreachable code after return statement
+1661602925887	Marionette	INFO	Stopped listening on port 36255
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
