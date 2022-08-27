@@ -64,6 +64,7 @@ def main():
     settings = parser.parse_args()
     
     opts = Options()
+    opts.headless = True
     service = Service(GeckoDriverManager().install())
     driver = webdriver.Firefox(service=service, options=opts)
 
