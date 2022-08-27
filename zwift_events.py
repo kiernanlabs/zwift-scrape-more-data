@@ -21,52 +21,53 @@ import time
 import zwift_scrape
 
 
-def getEventURLs(urlpage, headless=False):
+def getRaceURLs(urlpage, driver=None):
     opts = Options()
-    if headless:
-        opts.headless = True
-    scraped_data = {} 
-    with webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=opts
-    ) as driver:
-        driver.implicitly_wait(10)
-        print("Scraping data from: {}.".format(urlpage))
-        driver.get(urlpage)
-        
-        login_button = driver.find_element(
-            By.XPATH, '//*[@id="login"]/fieldset/div/div[1]/div/a'
-        )
-        login_button.click()
-        
-        sleep(1)
-        emailField = driver.find_element(By.XPATH, '//input[@id="username"]')
-        passwordField = driver.find_element(By.XPATH, '//input[@id="password"]')
-        loginButton2 = driver.find_element(By.XPATH, '//button[@id="submit-button"]')
-        emailField.send_keys(email)
-        passwordField.send_keys(password)
-        loginButton2.click()
-        login_wait = WebDriverWait(driver, 30)
-        
-        print("collecting event URLs...")
-        resultsButton = driver.find_element(By.XPATH, '//button[@id="button_event_results"]')
-        resultsButton.click()
-        sleep(0.25)
-        results = driver.find_element(By.XPATH, '//*[@id="zwift_event_list"]/tbody')
-        links = results.find_elements(By.TAG_NAME, "a")
-        print(f"found {len(links)} events")
-        urls = []
-        for link in links:
-            urls.append(link.get_attribute("href"))
-        return urls
+    if driver == None: 
+        close_at_end = 1
+        driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=opts)
+    
+    print("Scraping data from: {}.".format(urlpage))
+    driver.get(urlpage)
+    
+    if len(driver.find_elements(By.XPATH, '//*[@id="login"]/fieldset/div/div[1]/div/a')) > 0: zwift_scrape.login(driver)
+    
+    print("collecting race URLs...")
+    
+    resultsButton = driver.find_element(By.XPATH, '//button[@id="button_event_results"]')
+    resultsButton.click()
+    filterButton = driver.find_element(By.XPATH, '//button[@id="button_event_filter"]')
+    filterButton.click()
+    raceButton = driver.find_element(By.XPATH, '//button[@data-value="TYPE_RACE"]')
+    raceButton.click()
+
+    sleep(0.25)
+    results = driver.find_element(By.XPATH, '//*[@id="zwift_event_list"]/tbody')
+    links = results.find_elements(By.TAG_NAME, "a")
+    print(f"found {len(links)} events")
+
+    if close_at_end:
+        driver.quit()
+
+    urls = []
+    for link in links:
+        urls.append(link.get_attribute("href"))
+    return urls
+
             
 def main():
     startTime = time.time()
     parser = ArgumentParser(
         description="Scrape the first X urls from the zwiftpower results page"
     )
-    parser.add_argument("count", nargs='?', default=10, help="number of URLs to scrape ZwiftPower results from")
+    parser.add_argument("count", nargs='?', type=int, default=10, help="number of URLs to scrape ZwiftPower results from")
     settings = parser.parse_args()
-        
-    urls = getEventURLs("https://zwiftpower.com/")
+    
+    opts = Options()
+    service = Service(GeckoDriverManager().install())
+    driver = webdriver.Firefox(service=service, options=opts)
+
+    urls = getRaceURLs("https://zwiftpower.com/", driver)
     print(f"{len(urls)} Events found; scraping first {settings.count}")
     
     urls = urls[0:settings.count]
@@ -78,7 +79,9 @@ def main():
     for n, url in enumerate(urls) :
         print(f'URL #{n+1}/{settings.count}: {url}')
         urlArray = [url]
-        results = zwift_scrape.scrape(urlArray)  
+        
+        results = zwift_scrape.scrape(urlArray, driver)  
+
         for (name, event) in enumerate(results.items()):
             if event[1][0] is None: finishErrorURLs.append(url)
             else: 
@@ -95,6 +98,7 @@ def main():
     print(f'==== [Run Report] events with scrape errors:')
     for errorUrl in finishErrorURLs:
         print(f'==== [Run Report] * {errorUrl}')
+    driver.quit()
 
 if __name__ == "__main__":
     main()
