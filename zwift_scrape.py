@@ -26,7 +26,7 @@ def scrape(urlpage, headless=False):
     
     with webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=opts
     ) as driver:
-        driver.implicitly_wait(10)
+        # driver.implicitly_wait(10)
         for n, url in enumerate(urlpage):
             print("--Scraping data from: {}.".format(url))
             finishData = []
