@@ -1,4 +1,3 @@
-from cProfile import label
 import sys
 import re
 from os import path, listdir, mkdir, chmod
@@ -23,6 +22,7 @@ import zwift_scrape
 
 def getRaceURLs(urlpage, driver=None):
     opts = Options()
+    close_at_end = 0
     if driver == None: 
         close_at_end = 1
         driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=opts)
